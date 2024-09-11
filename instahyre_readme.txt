@@ -12,7 +12,16 @@ chrome browser: https://www.google.com/chrome/?brand=RXQR&ds_kid=437000532712266
 or
 firefox driver: https://github.com/mozilla/geckodriver/releases
 firefox browser: https://www.mozilla.org/en-US/firefox/windows/
-
+ Links to some of the more popular browser drivers
+ follow.
+ https://sites.google.com/chromium.org/driver/
+ Chrome:
+ Edge:
+ https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+ Firefox:
+ https://github.com/mozilla/geckodriver/releases
+ Safari:
+ https://webkit.org/blog/6900/webdriver-support-in-safari-10
 use your own instahyre.com credentials
 change apply button clicks as per your requirement
 
