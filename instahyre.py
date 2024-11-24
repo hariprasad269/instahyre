@@ -27,12 +27,12 @@ class Instahrye(unittest.TestCase):
             emailelement = fwait.until(
                 EC.presence_of_element_located((By.XPATH,'//*[@id="email"]'))
             )
-            emailelement.send_keys("hariprasad2691997@gmail.com")
+            emailelement.send_keys("email")
 
             passwordelement = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.XPATH, '//*[@id="password"]'))
             )
-            passwordelement.send_keys("Ghp@1234567890")
+            passwordelement.send_keys("password")
 
             submitelement = driver.find_element(By.XPATH, '//*[@id="login-form"]/button')
             submitelement.click()
